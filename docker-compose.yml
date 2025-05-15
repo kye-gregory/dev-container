@@ -1,0 +1,7 @@
+services:
+  dev:
+    build: .
+    container_name: dev-container
+    volumes:
+      - ./src:/home/dev/src
+
